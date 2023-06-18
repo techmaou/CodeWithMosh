@@ -1,0 +1,57 @@
+
+.tweet {
+    height: 150px;
+    align-items: center;
+    display: flex;
+    border: 10px  royalblue;
+    border-radius: 5%;
+    box-shadow: 0 0 45px #090979;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 20px;
+    float: left;
+  }
+  .username {
+    font-weight: bold;
+  }
+  #top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  video {
+    display: inline;
+    border-radius: 10%;
+  }
+  ul {
+    list-style-type: none;
+  }
+  table,
+  td,
+  th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  body {
+    margin:10px;
+    color: antiquewhite;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(0,212,255,1) 100%);
+  }
+  a:link,
+  a:visited{
+    color: red;
+  }
+  video {
+    margin-top: 100px;
+  }
