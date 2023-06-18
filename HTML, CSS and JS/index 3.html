@@ -16,6 +16,7 @@
       }
       .box-one {
         background: tomato;
+        float: right;
       }
       .box-two {
         background: deeppink;
@@ -28,10 +29,15 @@
       .box-three {
         background-color: steelblue;
       }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
     </style>
   </head>
   <body>
-    <div class="boxes">
+    <div class="boxes clearfix">
       <div class="box box-one"></div>
       <div class="box box-two"></div>
       <div class="box box-three"></div>
