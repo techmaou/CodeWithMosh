@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Animation</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 98vh;
+    }
+    .box {
+      background-color: gold;
+      position: relative;
+    }
+
+    .b4 {
+      width: 25px;
+      height: 25px;
+      background-color: rgb(122, 193, 255);
+      z-index: 1;
+    }
+
+    .b3 {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(79, 129, 173);
+      z-index: 2;
+    }
+
+    .b2 {
+      width: 75px;
+      height: 75px;
+      background-color: rgb(53, 86, 116);
+      z-index: 3;
+    }
+
+    .b1 {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(30, 48, 63);
+      z-index: 4;
+    }
+    .pos {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transition: 0.5s;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+  <body>
+    <div class="animate__animated pos box b1">
+      <div class="animate__animated pos box b2">
+        <div class="animate__animated pos box b3">
+          <div class="animate__animated pos box b4"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
