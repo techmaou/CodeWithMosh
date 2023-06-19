@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      .box {
+        background: gold;
+        padding: 1rem;
+      }
+      .box:nth-of-type(2) {
+        background: blue;
+        color: aliceblue;
+      }
+      @media screen and (min-width: 500px) and (max-width: 600px) {
+        .container {
+          flex-direction: row;
+        }
+      }
+      @media screen and (min-width: 900px) {
+        .box {
+          background: whitesmoke;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, eaque
+          a. Optio quis tenetur in doloremque, libero magni enim aliquid?
+        </p>
+      </div>
+      <div class="box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
+          tenetur? Ipsa eaque neque voluptas sequi corporis. Assumenda et
+          officiis perspiciatis.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
