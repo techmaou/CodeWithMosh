@@ -49,7 +49,9 @@ h3 {
     font-size: 2.4rem;
 }
 }
+
 /* Links */
+
 .link-arrow {
     color: var(--color-accent);
     text-transform: uppercase;
@@ -69,7 +71,9 @@ h3 {
         font-size: 1.5rem;
     }
 }
+
 /* Badges */
+
 .badge {
     border-radius: 20px;
     font-size: 2rem;
@@ -94,5 +98,30 @@ h3 {
     }
     .badge--small {
         font-size: 1.2rem;
+    }
+}
+
+/* Lists */
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-heading);
+}
+.list--inline .list__item {
+display: inline-block;
+margin-right: 2rem;
+}
+.list--tick {
+    list-style-image: url(../images/tick.svg);
+    padding-left: 3rem;
+}
+.list--tick .list__item {
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item {
+        padding-left: 0;
     }
 }
