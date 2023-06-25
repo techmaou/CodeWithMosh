@@ -12,7 +12,7 @@ Welcome to my learning repository! This repository contains my progress in learn
 
 The repository is organized as follows:
 
-- 'HTML, CSS and JS/Final Project' : Contains my Practice Files and Final Project.
+- 'HTML, CSS and JS/Final Project/' : Contains my Practice Files and Final Project.
 - `HTML, CSS and JS/Final Project/html/`: Contains HTML files showcasing various concepts and exercises.
 - `HTML, CSS and JS/Final Project/css/`: Includes CSS files for styling the HTML pages.
 - `HTML, CSS and JS/Final Project/js/`: Contains JavaScript files demonstrating interactive features and functionality.
